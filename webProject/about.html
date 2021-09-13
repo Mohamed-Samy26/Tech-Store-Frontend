@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>About us - Smart House</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="./main_project_.html"><img src="logo.png" width="300px"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li> <a href="./main_project_.html">Home</a> </li>
+          <li> <a href="products.html">products</a> </li>
+          <li> <a href="./about.html">About us</a> </li>
+          <li> <a href="">contact</a> </li>
+          <li> <a href="Account.html" style="background-color: rgb(161, 43, 43); border-radius: 15px; padding: 7px; color: #fff;">Log out</a> </li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+      <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+<!--==================== details ==================================-->
+
+<div id="about">
+    <br>
+    <p style="text-align: left; margin-left: 10%; font-size: large;">Made by :</p>
+    <ul>
+        <br>
+        <li>Mohamed Samy</li>
+        <br>
+        <li>Mohamed Salah</li>
+        <br>
+        <li>Abdulrahman Tarek</li>
+        <br>
+        <li>Omar Mamdouh</li>
+        <br>
+        <li>Mariam Ahmed</li>
+        <br>
+        <li>Yousef Ahmed</li>
+        <br>
+    </ul>
+</div>
+
+
+
+
+
+<!----------------------------------------footer-------------------------------------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Ower App</h3>
+        <p>Download App for Andriod and ios mobile.</p>
+        <div class="app-logo">
+          <img src="./google_play_store_logo.png">
+          <img src="App_Store_Badge.svg.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="logo.png">
+        <p>Our Purpose Is To Make Your Life Mush Easier.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+
+        </ul>
+
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twiitter</li>
+          <li>Instagram</li>
+
+        </ul>
+
+      </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2021 - Smart House Store</p>
+  </div>
+</div>
+<!--===================== js for toggle menu =============================--->
+<script type="text/javascript">
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+
+
+  </body>
+</html>

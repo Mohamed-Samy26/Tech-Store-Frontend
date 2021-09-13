@@ -1,0 +1,47 @@
+ls ..
+cd ..
+cat ..
+grep ..
+pwd ..
+mkdir ..
+sudo ..
+whoami ..
+echo ..
+touch .. 
+> ..
+>> ..
+man ..
+--help ..
+nano ..
+cp ..
+mv ..
+rm ..
+
+|
+file
+chmod
+
+wget --
+ssh  --
+
+challege :
+
+1- change your current location and move 2 folders out ( sol : cd ../../ )
+2- view folders in this directory ( sol : ls )
+3- open file named etc ( sol : cd ./etc )
+4 - check that you are in the right place [ ,/etc] (sol: pwd)
+5- view folders in this directory ( sol : ls )
+6- open passwd file (cat passwd)
+7- serch for the line that includes "man" word in passwd  ( sol : grep man passwd)
+8- create new folder called folder1 and open it  (sol : sudo mkdir folder1 ...... cd folder1)
+9- create a new text file called new.txt [this will require adminstrator access 
+	you can check for username using whoami ] (sol :sudo touch new.txt)
+10- write "MSP is great" to the text file WITHOUT USING TEXT EDITOR (sol : echo "MSP is great" > new.txt OR echo "MSP is great" >> new.txt)
+11- you can use man command or --help to know function of specific command 
+12- write "Hello World" to the text file USING NANO TEXT EDITOR (sol : nano new.txt .... then write ....ctrl s .... ctrl x)
+13- create folder called folder2 and move new.txt to it (sol : sudo mkdir folder2 ....... mv new.txt folder2)
+14- copy folder2 and name it folder3 (sol : cp folder2 folder3)
+15- remove folder2  (sol : rm folder2)
+
+
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Featured Products - Smart House</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+  </head>
+  <body>
+
+
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="./main_project_.html"><img src="logo.png" width="300px"></a>
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li> <a href="./main_project_.html">Home</a> </li>
+          <li> <a href="products.html">products</a> </li>
+          <li> <a href="./about.html">About us</a> </li>
+          <li> <a href="">contact</a> </li>
+          <li> <a href="Account.html" style="background-color: rgb(161, 43, 43); border-radius: 15px; padding: 7px; color: #fff;">Log out</a> </li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+      <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+
+<div class="small-container">
+  <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+      <option >Default Sorting </option>
+      <option >sort by price </option>
+      <option >sort by popularity </option>
+      <option >sort by rating</option>
+      <option >sort by sale</option>
+    </select>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="beats-micky.jpeg" >
+      <h4>Micky beats</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$200.00</p>
+    </div>
+    <div class="col-4">
+      <img src="SamsungGalaxyS20Ultra__1_.jfif" >
+      <h4>Silver samsung galaxy s20 ultra </h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$649.99</p>
+    </div>
+    <div class="col-4">
+      <a href="products-details.html"><img src="Samsung-Galaxy-S21-Ultra-5G-Phantom-Black-1.jpg" ></a>
+      <h4>Phantom Black Samsung Galaxy S21 Ultra 5G </h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$1050.00</p>
+    </div>
+    <div class="col-4">
+      <img src="iphone-12-pro-graphite.jpg" >
+      <h4>Graphite iphone 12 pro </h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$800.00</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="apple-macbook-air.jpg" >
+      <h4>Apple Mackbook Air</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$1433.00</p>
+    </div>
+    <div class="col-4">
+      <img src="Sony-WH-1000XM3.jpg" >
+      <h4>Sony wf 1000 xm4 </h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$350.00</p>
+    </div>
+    <div class="col-4">
+      <img src="huawei_gt2_watch.jpg" >
+      <h4>Huawei Gt2 Watch</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$200.00</p>
+    </div>
+    <div class="col-4">
+      <img src="Sony-WH-1000XM3.jpg" >
+      <h4>Sony-WH-1000XM 4</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$318.00</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="realme_gt-y-1.jpg" >
+      <h4>Realme GT</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$400.00</p>
+    </div>
+    <div class="col-4">
+      <img src="oppofindx3blue.jpg" >
+      <h4>oppo find x3</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$550.00</p>
+    </div>
+    <div class="col-4">
+      <img src="iphone-x.jpeg" >
+      <h4>iphone x</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+      <p>$500.00</p>
+    </div>
+    <div class="col-4">
+      <img src="airpods-max.jpg" >
+      <h4>Apple airpods max</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$750.00</p>
+    </div>
+  </div>
+  <div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+  </div>
+</div>
+
+<!--footer-------------------------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Ower App</h3>
+        <p>Download App for Andriod and ios mobile.</p>
+        <div class="app-logo">
+          <img src="google_play_store_logo.png">
+          <img src="App_Store_Badge.svg.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="logo.png">
+        <p>Our Purpose Is To Make Your Life Mush Easier.</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>coupons</li>
+        </ul>
+
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twiitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="Copyright">Copyright 2021 - Smart House Store</p>
+  </div>
+</div>
+<!--js for toggle menu--->
+<script type="text/javascript">
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight = "0px";
+
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+  </body>
+</html>
