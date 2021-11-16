@@ -7,4 +7,4 @@ Entry point for this project is `main_project_.html`
 
 ## Home Page
 
-![Home](https://github.com/Mohamed-Samy26/Flappy_bird_SP_project/blob/main/bandicam%202021-08-14%2006-06-03-731.jpg)
+![Home](https://github.com/Mohamed-Samy26/web-store-project/blob/main/Screenshots/Screenshot%202021-11-16%20032306.jpg)
