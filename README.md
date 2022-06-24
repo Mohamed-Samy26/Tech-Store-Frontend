@@ -1,4 +1,4 @@
-# Online-web-store-project
+# Online web store
 This project is an application on `HTML5` , `CSS3` , `Bootstrap` and `vanilla JavaScript`
 it mainly focuses on front-end development skills and acheiving the desired results
 so it doesn't have a back-end (I may do that later)
